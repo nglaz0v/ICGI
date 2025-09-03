@@ -1,5 +1,10 @@
 # ICGI (Integrative Causal Gene Identification)
 
+![ICGI_overview](ICGI_overview.jpeg)  
+Causal prompt engineering and overview of the ICGI framework.
+- (A) The meticulously crafted causal prompt template for causal gene identification, which includes system instruction, domain insights, task description, solution guidance, and output indication. We discuss it in detail in the Materials and methods section.
+- (B) Overview of the ICGI framework. ICGI comprises two modules: CGI-GPT and DML-CGI. CGI-GPT is the LLM-powered causal gene identification module; DML-CGI is the DML-based causal inference module to identify potential causal relationships between genes and specific cancer types from real-world transcriptomic data.
+
 🧬 [Cancer Gene Identification through Integrating Causal Prompting Large Language Model with Omics Data–Driven Causal Inference](https://doi.org/10.1093/bib/bbaf113) 🔥
 
 1️⃣ We present an interesting attempt, as illustrated in the figure below: Using the latest GPT-4o large model to generate schematic cancer gene identification. It is undeniable that the LLM possesses versatile and powerful capabilities, and LLM-aided approaches hold great promise for addressing complex scientific problems.
